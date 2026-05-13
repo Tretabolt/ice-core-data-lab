@@ -1,0 +1,31 @@
+# Data files (too large for git)
+data/raw/
+data/processed/
+data/external/
+*.parquet
+*.hdf5
+*.h5
+
+# Output
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.eggs/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual env
+venv/
+.env/
