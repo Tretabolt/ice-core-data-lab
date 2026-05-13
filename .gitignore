@@ -1,13 +1,12 @@
-# Data files (too large for git)
+# Large data files
 data/raw/
-data/processed/
-data/external/
 *.parquet
 *.hdf5
 *.h5
 
-# Output
-output/
+# Keep processed CSVs and output images
+!data/processed/*.csv
+!output/*.png
 
 # Python
 __pycache__/
